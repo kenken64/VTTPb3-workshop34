@@ -1,5 +1,27 @@
 # Workshop34
 
+```
+ng g c --flat --skip-tests component/weather
+```
+
+```
+ng g class --skip-tests models/Weather
+```
+
+```
+ng g s --skip-tests services/Weather
+```
+
+## Install dependencies 
+
+```
+ng add @angular/material
+```
+
+```
+ng add @angular/pwa --project workshop34
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
 ## Development server
